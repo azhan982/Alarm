@@ -12,7 +12,7 @@ bt.addEventListener('click',()=>{
     while(i>0) {
     pas.innerHTML = parseInt(pas.innerHTML)-1
     i-=1}
-    fo.innerHTML =`Alarm is set for next ${mi} minutes (Refresh for Stoping Timer)`
+    fo.innerHTML =`Timer is set for next ${mi} minutes (Refresh for Stoping Timer)`
     tim.value = ''
     setTimeout(()=>{
         mus()
