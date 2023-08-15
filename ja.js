@@ -8,10 +8,9 @@ function mus() {
 bt.addEventListener('click',()=>{
     let mi = tim.value
     pas.innerHTML = mi
-    let i = mi
-    while(i>0) {
-    pas.innerHTML = parseInt(pas.innerHTML)-1
-    i-=1}
+   setInterval(()=>{
+        pas.innerHTML -= 1  
+   },1000)
     fo.innerHTML =`Timer is set for next ${mi} minutes (Refresh for Stoping Timer)`
     tim.value = ''
     setTimeout(()=>{
