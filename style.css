@@ -28,6 +28,7 @@ body{
     font-size: 118px;
 padding: 37px;
 border-radius: 15px;
+margin-right: 10px;
 }
 
 .top{
@@ -35,7 +36,8 @@ border-radius: 15px;
     text-align: center;
 }
 .set{
-    position: relative;
+    display: flex;
+    justify-content: center;
     margin-bottom: 10px;
     font-size: 17px;
 
@@ -49,6 +51,7 @@ border-radius: 15px;
     font-size: 103px;
     padding: 32px 16px ;
     border-radius: 15px;
+    margin-left: 10px;
 }
 button{
     margin-top: 15px;
@@ -64,4 +67,8 @@ button{
     height: 30px;
     color: rgb(189, 189, 0);
     text-align: center;
+}
+
+#tim{
+    margin-left: 5px;
 }
